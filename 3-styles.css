@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.mini-container {
+    width: 80%;
+    margin: 100px auto;
+
+}
+
+/* HERO STYLING */
+.hero {
+    background: url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+/* NAVIGATION STYLING */
+
+nav ul {
+    display: none;
+}
+
+nav img {
+    width: 50%;
+}
+
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.title_container {
+    margin-bottom: 40px;
+}
+
+.hero__title {
+    font-size: 1.2rem;
+    /* margin-bottom: 0px; */
+    line-height: 2rem;
+}
+
+.hero__sub-title {
+    font-size: .6rem;
+}
+
+.cta {
+    font-size: 0.5rem;
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.hero__message {
+    font-size: .6rem;
+    font-weight: 300;
+    max-width: 450px;
+}
+
+/* MAIN CONTENT STYLING */
+
+/* WHAT WE DO SECTION */
+
+.what-we-do {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.what-we-do__heading {
+    margin: 110px auto;
+    max-width: 450px;
+}
+
+.what-we-do__heading h2 {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.what-we-do__heading p {
+    font-size: .8rem;
+}
+
+.category-items {
+    margin-bottom: 40px;
+}
+
+.category-items h3 {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.category-items p {
+    font-size: .8rem;
+}
+
+.category-items img {
+    width: 50px;
+}
+
+/* TESTIMONIALS SECTION STYLING */
+
+.testimonials {
+    background: url(images/headphones_hero_2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+}
+
+.testimonial__heading {
+    margin: 110px auto;
+    max-width: 450px;
+}
+
+.testimonial__heading h2 {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.testimonial__heading p {
+    font-size: .8rem;
+}
+
+.testimonial-items div {
+    background: url(images/pentagone.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 40px;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonial-items h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.testimonial-items p {
+    font-size: .8rem;
+}
+
+/* CONTACT SECTION STYLING */
+
+label {
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+input {
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: .5px solid #071629;
+}
+
+form {
+    max-width: 450px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    padding: 60px 0;
+}
+
+form h2 {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+
+    margin-bottom: 10px;
+}
+
+
+/* MEDIA QUERYS FOR BIGGER SCREENS */
+
+@media (min-width: 480px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
